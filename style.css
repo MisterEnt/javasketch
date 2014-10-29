@@ -1,0 +1,78 @@
+body {
+	background-color: #000000;
+	overflow: hidden;
+}
+
+.mask {
+	background-color: #000000;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: absolute;
+	display: block;
+}
+
+.top_wrap {
+	height: 60px;
+	width: 375px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	white-space: nowrap;
+}
+
+button {
+	margin: 0 auto;
+	border: 1px solid #444;
+	border-radius: 4px;
+	height: 35px;
+	width: 110px;
+	background-color: #9f1200;
+	opacity: 0.8;
+	font-size: 14px;
+	font-family: Verdana, Arial;
+	color: #ffffff;
+	vertical-align: top;
+	position: relative;
+	z-index: 2;
+	display: inline-block;
+	white-space: nowrap;
+}
+
+.party_mode {
+	background-color: #00129f;
+}
+
+.spacer {
+	height: 30px;
+	width: 100px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.wrapper {
+	white-space: nowrap;
+	margin: auto;
+	height: 400px;
+	width: 400px;
+	position: relative;
+}
+
+.wrapper_row {
+	white-space: nowrap;
+	display: block;
+	margin: auto;
+	background-color: #000000;
+	position: relative;
+}
+
+.grid_square {
+	background-color: #ffffff;
+	display: inline-block;
+	white-space: nowrap;
+	opacity: 0.5;
+	position: relative;
+	vertical-align: top;
+	height: 1px;
+	width: 1px;
+}
